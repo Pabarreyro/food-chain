@@ -1,12 +1,17 @@
-#initially-hidden {
+#initially-hidden, #initially-hidden2 {
   display: none;
 }
 
-.clickable {
+img {
+  width: 20vw;
+  max-width: 100%;
+}
+
+.clickable, .clickable2 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable:hover, .clickable2:hover {
   text-decoration: underline;
 }

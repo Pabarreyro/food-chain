@@ -1,4 +1,4 @@
-#initially-hidden, #initially-hidden2 {
+#apex-hidden, #secondary-hidden, #tertiary-hidden {
   display: none;
 }
 
@@ -7,7 +7,7 @@ img {
   max-width: 100%;
 }
 
-.clickable, .clickable2 {
+.clickable-polar-bear, .clickable-walrus, .clickable-clams {
   cursor: pointer;
   color: #0088cc;
 }

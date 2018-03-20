@@ -1,12 +1,18 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#initially-hidden").toggle();
-    $("#initially-showing").toggle();
+  $(".clickable-polar-bear").click(function() {
+    $("#apex-hidden").toggle();
+    $("#apex-showing").toggle();
   });
 
-  $(".clickable2").click(function() {
-    $("#initially-hidden2").slideToggle("slow");
-    // $("#initially-hidden2").fadeOut("slow");
+  $(".clickable-walrus").click(function() {
+    $("#secondary-hidden").toggle();
+    $("#secondary-showing").toggle();
   });
+
+  $(".clickable-clams").click(function() {
+    $("#tertiary-hidden").toggle();
+    $("#tertiary-showing").toggle();
+  });
+
 
 });

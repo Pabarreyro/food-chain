@@ -1,17 +1,37 @@
+body {
+  background-color: #E8DDCB;
+
+}
+
 #apex-hidden, #secondary-hidden, #tertiary-hidden {
   display: none;
 }
 
+div.row {
+  padding: 10px;
+}
+.showing {
+  background-color: rgba(3,101,100,0.5);
+  color: white;
+}
+
+/*h2 {
+  background-color: rgba (3,101,100, 0.5);
+  color: #033649;
+}*/
+
 img {
   width: 20vw;
   max-width: 100%;
+  margin: 10px;
 }
 
 .clickable-polar-bear h2, .clickable-walrus h2, .clickable-clams h2 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgba(3,54,73,0.75);
 }
 
-.clickable:hover, .clickable2:hover {
+.clickable-polar-bear h2:hover, .clickable-walrus h2:hover, .clickable-clams h2:hover {
   text-decoration: underline;
+  color: rgba(3,54,73,0.75);
 }

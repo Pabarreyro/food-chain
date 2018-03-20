@@ -1,17 +1,17 @@
 $(document).ready(function() {
   $(".clickable-polar-bear").click(function() {
-    $("#apex-hidden").toggle();
-    $("#apex-showing").toggle();
+    $("#apex-hidden").slideToggle("slow");
+    $("#apex-hidden").toggleClass("showing");
   });
 
   $(".clickable-walrus").click(function() {
-    $("#secondary-hidden").toggle();
-    $("#secondary-showing").toggle();
+    $("#secondary-hidden").slideToggle("slow");
+    $("#secondary-hidden").toggleClass("showing");
   });
 
   $(".clickable-clams").click(function() {
-    $("#tertiary-hidden").toggle();
-    $("#tertiary-showing").toggle();
+    $("#tertiary-hidden").slideToggle("slow");
+    $("#tertiary-hidden").toggleClass("showing");
   });
 
 
